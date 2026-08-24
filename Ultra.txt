@@ -1,0 +1,272 @@
+Config({
+    Map = "SUPREMACY PRIME",
+    Difficulty = "UltraNightmare",
+    Loadout = 0,
+    LoadoutEnable = true,
+    AutoSkill = true,
+    AutoSellConverted = true,
+    AutoSkip = false,
+    useMacroSkip = true,
+    PlaceByTiming = true,
+    UpgradeByTiming = true,
+    ShopByTiming = true,
+    MovePlayer = false,
+    AutoSecretWave = false,
+    AutoHeal = false,
+    FullyAutoDrone = true,
+    DroneMode = "Maximum Damage",
+    ExploitDmg = false,
+    MissChance = 0,
+    ModifyFireRate = { "2" },
+    PriorityRebuild = { "EDJ", "Medic", "Commander", "Mobster", "Golden Mobster", "Combat Drone", "Shield Tower" },
+})
+
+
+Wave(0)
+rebuild({ Skip = { "Farm" }, Be = false })
+reshield({ ShieldCount = 1000 })
+Place("Combat Drone", -3.9813213348388672, 0.56451022624969482, -6.7406234741210938, 0, 2550, 33) -- Combat Drone number 1
+Upgrade(-3.9813213348388672, 2, 3, 32) -- Combat Drone number 1
+Place("Combat Drone", -5.3936710357666016, 0.56451022624969482, -5.7989158630371094, 0, 2550, 32) -- Combat Drone number 2
+Upgrade(-5.3936710357666016, 2, 3, 32) -- Combat Drone number 2
+
+Wave(3)
+Skip(22)
+
+Wave(4)
+Skip(14)
+
+Wave(7)
+Upgrade(-5.3936710357666016, 2, 1, 118) -- Combat Drone number 2
+
+Wave(8)
+Skip(22)
+
+Wave(9)
+Skip(19)
+
+Wave(10)
+Upgrade(-5.3936710357666016, 2, 1, 59) -- Combat Drone number 2
+Upgrade(-5.3936710357666016, 1, 1, 55) -- Combat Drone number 2
+Skip(43)
+
+Wave(11)
+Upgrade(-5.3936710357666016, 1, 1, 59) -- Combat Drone number 2
+Skip(43)
+
+Wave(12)
+Skip(43)
+
+Wave(13)
+Upgrade(-3.9813213348388672, 2, 1, 114) -- Combat Drone number 1
+Upgrade(-3.9813213348388672, 1, 2, 113) -- Combat Drone number 1
+Skip(58)
+
+Wave(14)
+Skip(57)
+Upgrade(-3.9813213348388672, 2, 1, 1) -- Combat Drone number 1
+
+Wave(15)
+Skip(38)
+
+Wave(17)
+Place("War Machine Factory", 32.047386169433594, 0.4989108145236969, 6.8900017738342285, 0, 19000, 118) -- War Machine Factory number 1
+Upgrade(32.047386169433594, 1, 4, 116) -- War Machine Factory number 1
+Upgrade(32.047386169433594, 2, 2, 116) -- War Machine Factory number 1
+Skip(51)
+
+Wave(18)
+Upgrade(32.047386169433594, 1, 1, 134) -- War Machine Factory number 1
+Place("War Machine Factory", 31.498481750488281, 11.640247344970703, 22.461301803588867, 0, 19000, 124) -- War Machine Factory number 2
+Upgrade(31.498481750488281, 1, 2, 123) -- War Machine Factory number 2
+Upgrade(31.498481750488281, 2, 2, 121) -- War Machine Factory number 2
+Upgrade(31.498481750488281, 1, 2, 54) -- War Machine Factory number 2
+Skip(54)
+
+Wave(20)
+Upgrade(31.498481750488281, 1, 1, 626) -- War Machine Factory number 2
+Place("War Machine Factory", 21.707809448242188, 11.640247344970703, -59.739894866943359, 0, 19000, 553) -- War Machine Factory number 3
+Upgrade(21.707809448242188, 1, 4, 551) -- War Machine Factory number 3
+Upgrade(21.707809448242188, 2, 2, 551) -- War Machine Factory number 3
+Upgrade(21.707809448242188, 1, 1, 548) -- War Machine Factory number 3
+
+Wave(21)
+Place("War Machine Factory", -77.041351318359375, 0.52490592002868652, 61.404685974121094, 0, 19000, 106) -- War Machine Factory number 4
+Upgrade(-77.041351318359375, 1, 5, 105) -- War Machine Factory number 4
+Upgrade(-77.041351318359375, 2, 2, 105) -- War Machine Factory number 4
+Place("War Machine Factory", -71.182723999023438, 11.64024829864502, 48.018665313720703, 0, 19000, 36) -- War Machine Factory number 5
+Upgrade(-71.182723999023438, 1, 5, 35) -- War Machine Factory number 5
+Upgrade(-71.182723999023438, 2, 2, 35) -- War Machine Factory number 5
+
+Wave(22)
+Place("Shield Tower", -66.443244934082031, 11.64024829864502, -17.93086051940918, 0, 4000, 115) -- Shield Tower number 1
+Upgrade(-66.443244934082031, 1, 5, 112) -- Shield Tower number 1
+Upgrade(-66.443244934082031, 2, 2, 112) -- Shield Tower number 1
+
+Wave(23)
+Place("Behemoth Factory", -58.604583740234375, 11.640247344970703, -22.164241790771484, 0, 9000, 150) -- Behemoth Factory number 1
+Upgrade(-58.604583740234375, 1, 3, 150) -- Behemoth Factory number 1
+Upgrade(-58.604583740234375, 2, 2, 149) -- Behemoth Factory number 1
+Upgrade(-58.604583740234375, 1, 1, 132) -- Behemoth Factory number 1
+
+Wave(24)
+Upgrade(-58.604583740234375, 1, 1, 127) -- Behemoth Factory number 1
+Skip(120)
+
+Wave(25)
+Place("Behemoth Factory", -74.56817626953125, 0.50316822528839111, -29.067590713500977, 0, 9000, 102) -- Behemoth Factory number 2
+Upgrade(-74.56817626953125, 1, 5, 101) -- Behemoth Factory number 2
+Upgrade(-74.56817626953125, 2, 2, 101) -- Behemoth Factory number 2
+Place("Behemoth Factory", -74.931472778320312, 0.50488179922103882, -17.944869995117188, 0, 9000, 53) -- Behemoth Factory number 3
+Upgrade(-74.931472778320312, 1, 3, 52) -- Behemoth Factory number 3
+Skip(52)
+
+Wave(26)
+Upgrade(-74.931472778320312, 1, 1, 52) -- Behemoth Factory number 3
+
+Wave(27)
+Upgrade(-74.931472778320312, 1, 1, 159) -- Behemoth Factory number 3
+Upgrade(-74.931472778320312, 2, 2, 159) -- Behemoth Factory number 3
+Skip(137)
+
+Wave(28)
+Place("Behemoth Factory", -76.793670654296875, 0.51372891664505005, -6.9057083129882812, 0, 9000, 53) -- Behemoth Factory number 4
+Upgrade(-76.793670654296875, 1, 4, 51) -- Behemoth Factory number 4
+Upgrade(-76.793670654296875, 2, 2, 49) -- Behemoth Factory number 4
+Skip(36)
+
+Wave(30)
+Upgrade(-76.793670654296875, 1, 1, 339) -- Behemoth Factory number 4
+Place("Behemoth Factory", -59.399993896484375, 0.51958394050598145, -23.383571624755859, 0, 9000, 326) -- Behemoth Factory number 5
+Upgrade(-59.399993896484375, 1, 4, 321) -- Behemoth Factory number 5
+Upgrade(-59.399993896484375, 2, 2, 320) -- Behemoth Factory number 5
+Upgrade(-59.399993896484375, 1, 1, 251) -- Behemoth Factory number 5
+Skip(224)
+
+Wave(31)
+Place("Behemoth Factory", 18.656459808349609, 0.51958703994750977, 50.9716796875, 0, 9000, 103) -- Behemoth Factory number 6
+Upgrade(18.656459808349609, 1, 5, 102) -- Behemoth Factory number 6
+Upgrade(18.656459808349609, 2, 2, 102) -- Behemoth Factory number 6
+Skip(100)
+
+Wave(32)
+Place("Shield Tower", -1.17083740234375, 0.47341692447662354, -1.0594425201416016, 0, 4000, 254) -- Shield Tower number 2
+Upgrade(-1.17083740234375, 1, 5, 253) -- Shield Tower number 2
+Upgrade(-1.17083740234375, 2, 2, 253) -- Shield Tower number 2
+Place("Shield Tower", -6.7496733665466309, 0.56451022624969482, -12.267013549804688, 0, 4000, 239) -- Shield Tower number 3
+Upgrade(-6.7496733665466309, 2, 5, 237) -- Shield Tower number 3
+Upgrade(-6.7496733665466309, 1, 2, 237) -- Shield Tower number 3
+Place("Refractor", 2.6322536468505859, 0.47341692447662354, -5.3489108085632324, 0, 20000, 233) -- Refractor number 1
+Upgrade(2.6322536468505859, 2, 4, 230) -- Refractor number 1
+Upgrade(2.6322536468505859, 1, 2, 228) -- Refractor number 1
+Skip(222)
+
+Wave(33)
+Place("Refractor", 2.9623231887817383, 0.49891653656959534, -10.218133926391602, 0, 20000, 115) -- Refractor number 2
+Upgrade(2.9623231887817383, 2, 4, 114) -- Refractor number 2
+Upgrade(2.9623231887817383, 1, 2, 114) -- Refractor number 2
+Place("Refractor", 4.50244140625, 0.47341692447662354, -0.82898926734924316, 0, 20000, 108) -- Refractor number 3
+Upgrade(4.50244140625, 2, 4, 107) -- Refractor number 3
+Upgrade(4.50244140625, 1, 2, 106) -- Refractor number 3
+Skip(58)
+
+Wave(34)
+Place("Refractor", -2.1801190376281738, 0.47349244356155396, 4.5763235092163086, 0, 20000, 125) -- Refractor number 4
+Upgrade(-2.1801190376281738, 2, 3, 123) -- Refractor number 4
+Upgrade(-2.1801190376281738, 1, 2, 122) -- Refractor number 4
+Skip(59)
+
+Wave(35)
+Upgrade(-2.1801190376281738, 2, 1, 958) -- Refractor number 4
+Place("Refractor", 2.6537094116210938, 0.47349339723587036, 3.7081038951873779, 0, 20000, 951) -- Refractor number 5
+Upgrade(2.6537094116210938, 2, 3, 950) -- Refractor number 5
+Upgrade(2.6537094116210938, 1, 2, 949) -- Refractor number 5
+Upgrade(2.6537094116210938, 2, 1, 943) -- Refractor number 5
+Place("Refractor", 7.5156955718994141, 0.47349417209625244, 3.0363478660583496, 0, 20000, 848) -- Refractor number 6
+Upgrade(7.5156955718994141, 2, 4, 847) -- Refractor number 6
+Upgrade(7.5156955718994141, 1, 2, 846) -- Refractor number 6
+Place("Shield Tower", -12.142421722412109, 0.47345951199531555, -18.41810417175293, 0, 4000, 824) -- Shield Tower number 4
+Upgrade(-12.142421722412109, 1, 5, 823) -- Shield Tower number 4
+Upgrade(-12.142421722412109, 2, 2, 823) -- Shield Tower number 4
+Place("Shield Tower", 9.1768474578857422, 0.49891653656959534, -19.299823760986328, 0, 4000, 808) -- Shield Tower number 5
+Upgrade(9.1768474578857422, 1, 5, 807) -- Shield Tower number 5
+Upgrade(9.1768474578857422, 2, 2, 807) -- Shield Tower number 5
+Place("Shield Tower", 10.801366806030273, 0.47341692447662354, -3.3046321868896484, 0, 4000, 743) -- Shield Tower number 6
+Upgrade(10.801366806030273, 2, 5, 742) -- Shield Tower number 6
+Upgrade(10.801366806030273, 1, 2, 742) -- Shield Tower number 6
+Place("Combat Medic", 6.1511421203613281, 0.47341692447662354, -4.2069296836853027, 0, 1300, 0) -- Combat Medic number 1
+Upgrade(6.1511421203613281, 1, 5, 0) -- Combat Medic number 1
+Upgrade(6.1511421203613281, 2, 2, 0) -- Combat Medic number 1
+
+Wave(36)
+Place("Combat Medic", 6.1232719421386719, 0.47341692447662354, -6.6660141944885254, 0, 1300, 56) -- Combat Medic number 2
+Upgrade(6.1232719421386719, 1, 5, 56) -- Combat Medic number 2
+Upgrade(6.1232719421386719, 2, 2, 56) -- Combat Medic number 2
+Place("Combat Medic", -5.5339889526367188, 0.47341692447662354, -2.5709648132324219, 0, 1300, 51) -- Combat Medic number 3
+Upgrade(-5.5339889526367188, 1, 5, 51) -- Combat Medic number 3
+Upgrade(-5.5339889526367188, 2, 2, 51) -- Combat Medic number 3
+Place("Combat Medic", -7.9059133529663086, 0.47341692447662354, -3.1589117050170898, 0, 1300, 50) -- Combat Medic number 4
+Upgrade(-7.9059133529663086, 1, 5, 49) -- Combat Medic number 4
+Upgrade(-7.9059133529663086, 2, 2, 49) -- Combat Medic number 4
+Place("Combat Medic", 3.0424928665161133, 0.56456470489501953, -23.047889709472656, 0, 1300, 40) -- Combat Medic number 5
+Upgrade(3.0424928665161133, 1, 5, 40) -- Combat Medic number 5
+Upgrade(3.0424928665161133, 2, 2, 40) -- Combat Medic number 5
+Place("Combat Medic", 4.4786796569824219, 0.49891462922096252, -21.199262619018555, 0, 1300, 38) -- Combat Medic number 6
+Upgrade(4.4786796569824219, 1, 5, 37) -- Combat Medic number 6
+Upgrade(4.4786796569824219, 2, 2, 37) -- Combat Medic number 6
+Place("Refractor", 3.1192808151245117, 0.49891462922096252, -15.090425491333008, 0, 20000, 31) -- Refractor number 7
+Upgrade(3.1192808151245117, 2, 4, 30) -- Refractor number 7
+Upgrade(3.1192808151245117, 1, 2, 29) -- Refractor number 7
+Place("Refractor", 7.8715782165527344, 0.49891653656959534, -9.8304405212402344, 0, 20000, 25) -- Refractor number 8
+Upgrade(7.8715782165527344, 2, 4, 24) -- Refractor number 8
+Upgrade(7.8715782165527344, 1, 2, 24) -- Refractor number 8
+Place("Refractor", 12.296998977661133, 0.47349491715431213, 2.3515686988830566, 0, 20000, 11) -- Refractor number 9
+Upgrade(12.296998977661133, 2, 4, 10) -- Refractor number 9
+Upgrade(12.296998977661133, 1, 2, 10) -- Refractor number 9
+Place("Refractor", -6.4082298278808594, 0.47341692447662354, -17.941028594970703, 0, 20000, 6) -- Refractor number 10
+Upgrade(-6.4082298278808594, 2, 4, 6) -- Refractor number 10
+Upgrade(-6.4082298278808594, 1, 2, 5) -- Refractor number 10
+
+Wave(37)
+Place("Refractor", -6.8862590789794922, 0.47341692447662354, -22.823780059814453, 0, 20000, 134) -- Refractor number 11
+Upgrade(-6.8862590789794922, 2, 4, 133) -- Refractor number 11
+Upgrade(-6.8862590789794922, 1, 1, 132) -- Refractor number 11
+Skip(121)
+
+Wave(39)
+Place("Combat Medic", 6.3333401679992676, 0.49891653656959534, -13.386549949645996, 0, 1300, 440) -- Combat Medic number 7
+Upgrade(6.3333401679992676, 1, 5, 439) -- Combat Medic number 7
+Upgrade(6.3333401679992676, 2, 2, 439) -- Combat Medic number 7
+Place("Refractor", -11.542326927185059, 0.47347196936607361, -24.060176849365234, 0, 20000, 426) -- Refractor number 12
+Upgrade(-11.542326927185059, 2, 4, 424) -- Refractor number 12
+Place("Refractor", -7.3104147911071777, 0.47341692447662354, -27.840576171875, 0, 20000, 415) -- Refractor number 13
+Upgrade(-7.3104147911071777, 2, 3, 415) -- Refractor number 13
+Upgrade(-6.8862590789794922, 1, 1, 406) -- Refractor number 11
+Upgrade(-11.542326927185059, 1, 2, 404) -- Refractor number 12
+Upgrade(-7.3104147911071777, 1, 2, 354) -- Refractor number 13
+Skip(333)
+
+Wave(40)
+Upgrade(-7.3104147911071777, 2, 1, 819) -- Refractor number 13
+Upgrade(2.9623231887817383, 2, 1, 730) -- Refractor number 2
+Upgrade(2.6322536468505859, 2, 1, 714) -- Refractor number 1
+Upgrade(7.8715782165527344, 2, 1, 4) -- Refractor number 8
+
+Wave(42)
+Upgrade(7.5156955718994141, 2, 1, 805) -- Refractor number 6
+Upgrade(-2.1801190376281738, 2, 1, 602) -- Refractor number 4
+
+Wave(43)
+Upgrade(12.296998977661133, 2, 1, 139) -- Refractor number 9
+
+Wave(44)
+Upgrade(4.50244140625, 2, 1, 806) -- Refractor number 3
+Upgrade(3.1192808151245117, 2, 1, 721) -- Refractor number 7
+Upgrade(2.6537094116210938, 2, 1, 707) -- Refractor number 5
+Upgrade(-6.4082298278808594, 2, 1, 651) -- Refractor number 10
+Upgrade(-6.8862590789794922, 2, 1, 616) -- Refractor number 11
+Skip(518)
+
+Wave(46)
+Upgrade(-7.3104147911071777, 2, 1, 0) -- Refractor number 13
+Upgrade(-11.542326927185059, 2, 1, 0) -- Refractor number 12
