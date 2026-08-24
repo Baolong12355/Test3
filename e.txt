@@ -1,0 +1,293 @@
+-- 0.99:0:258:10062:1690
+Config({
+    Map = "ANCHOR",
+    Difficulty = "Christmas25Part1Nightmare",
+    Loadout = 2,
+    LoadoutEnable = true,
+    AutoSkill = true,
+    AutoSellConverted = false,
+    AutoSkip = false,
+    useMacroSkip = false,
+    PlaceByTiming = false,
+    UpgradeByTiming = false,
+    ShopByTiming = false,
+    MovePlayer = false,
+    AutoSecretWave = false,
+    AutoHeal = true,
+    FullyAutoDrone = true,
+    DroneMode = "Maximum Damage",
+    ExploitDmg = false,
+    MissChance = 3,
+    ModifyFireRate = { "1" },
+    PriorityRebuild = { "EDJ", "Medic", "Commander", "Mobster", "Golden Mobster", "Combat Drone", "Shield Tower" },
+    WaveSkipConfig = { "i", "i", "i", "i", "i", "i", "i", "i", "i", "i", "i" },
+})
+
+
+Wave(0)
+Place("Combat Drone", -52.902542114257812, 14.705409049987793, 240.59051513671875, 0, 3000, 26) -- Combat Drone number 1
+Upgrade(-52.902542114257812, 1, 1, 23) -- Combat Drone number 1
+Upgrade(-52.902542114257812, 2, 2, 22) -- Combat Drone number 1
+ShopUpgrade("Combat Drone", "Damage", false, 13)
+
+Wave(1)
+ShopUpgrade("Combat Drone", "Damage", false, -18)
+Upgrade(-52.902542114257812, 1, 1, -20) -- Combat Drone number 1
+Upgrade(-52.902542114257812, 1, 1, -71) -- Combat Drone number 1
+Place("Sniper", -17.874799728393555, 17.351764678955078, 96.309867858886719, 0, 285, -78) -- Sniper number 1
+Place("Sniper", -17.943046569824219, 17.351764678955078, 99.374717712402344, 0, 285, -80) -- Sniper number 2
+Place("Sniper", -17.612434387207031, 17.351764678955078, 102.56386566162109, 0, 285, -83) -- Sniper number 3
+Place("Sniper", -17.438821792602539, 17.351764678955078, 105.78050231933594, 0, 285, -84) -- Sniper number 4
+Place("Sniper", -17.62641716003418, 17.351764678955078, 93.312042236328125, 0, 285, -86) -- Sniper number 5
+ShopUpgrade("Sniper", "Damage", false, -89)
+ShopUpgrade("Sniper", "Range", false, -92)
+ShopUpgrade("Sniper", "Range", false, -92)
+Upgrade(-17.62641716003418, 1, 4, -97) -- Sniper number 5
+Upgrade(-17.62641716003418, 2, 2, -98) -- Sniper number 5
+ShopUpgrade("Sniper", "Firerate", false, -119)
+ShopUpgrade("Sniper", "Firerate", false, -119)
+Upgrade(-17.62641716003418, 1, 1, -125) -- Sniper number 5
+Upgrade(-17.874799728393555, 2, 1, -128) -- Sniper number 1
+Upgrade(-17.874799728393555, 2, 1, -129) -- Sniper number 1
+Upgrade(-17.943046569824219, 2, 2, -130) -- Sniper number 2
+Upgrade(-17.612434387207031, 2, 1, -134) -- Sniper number 3
+Upgrade(-17.612434387207031, 2, 1, -135) -- Sniper number 3
+Upgrade(-17.438821792602539, 2, 2, -137) -- Sniper number 4
+Upgrade(-17.874799728393555, 1, 2, -218) -- Sniper number 1
+Upgrade(-17.874799728393555, 1, 1, -221) -- Sniper number 1
+Upgrade(-17.874799728393555, 1, 1, -223) -- Sniper number 1
+Upgrade(-17.874799728393555, 1, 1, -239) -- Sniper number 1
+ShopUpgrade("Sniper", "Damage", false, -250)
+ShopUpgrade("Sniper", "Range", false, -252)
+ShopUpgrade("Sniper", "Range", false, -254)
+Upgrade(-17.943046569824219, 1, 2, -262) -- Sniper number 2
+Upgrade(-17.943046569824219, 1, 1, -263) -- Sniper number 2
+Upgrade(-17.943046569824219, 1, 1, -268) -- Sniper number 2
+Upgrade(-17.612434387207031, 1, 1, -270) -- Sniper number 3
+Upgrade(-17.612434387207031, 1, 3, -271) -- Sniper number 3
+Upgrade(-17.438821792602539, 1, 1, -273) -- Sniper number 4
+Upgrade(-17.438821792602539, 1, 3, -274) -- Sniper number 4
+Upgrade(-17.438821792602539, 1, 1, -284) -- Sniper number 4
+Upgrade(-17.612434387207031, 1, 1, -296) -- Sniper number 3
+ShopUpgrade("Sniper", "Range", false, -308)
+ShopUpgrade("Sniper", "Pierce", false, -311)
+ShopUpgrade("Sniper", "Pierce", false, -312)
+
+Wave(2)
+Upgrade(-52.902542114257812, 1, 1, 1043) -- Combat Drone number 1
+ShopUpgrade("Sniper", "Damage", false, 1034)
+ShopUpgrade("Sniper", "Pierce", false, 1031)
+Place("Sniper", -14.556194305419922, 17.351764678955078, 93.164939880371094, 0, 285, 1020) -- Sniper number 6
+Place("Sniper", -14.773242950439453, 17.351764678955078, 96.201820373535156, 0, 285, 1018) -- Sniper number 7
+Place("Sniper", -14.757721900939941, 17.351764678955078, 99.351593017578125, 0, 285, 1016) -- Sniper number 8
+Place("Sniper", -14.568572998046875, 17.351764678955078, 102.36616516113281, 0, 285, 1012) -- Sniper number 9
+Place("Sniper", -14.32319450378418, 17.351764678955078, 105.53293609619141, 0, 285, 1010) -- Sniper number 10
+Upgrade(-14.556194305419922, 1, 5, 1006) -- Sniper number 6
+Upgrade(-14.556194305419922, 2, 2, 1006) -- Sniper number 6
+Upgrade(-14.773242950439453, 1, 5, 1003) -- Sniper number 7
+Upgrade(-14.773242950439453, 2, 2, 1003) -- Sniper number 7
+Upgrade(-14.757721900939941, 1, 5, 1001) -- Sniper number 8
+Upgrade(-14.757721900939941, 2, 2, 1001) -- Sniper number 8
+Upgrade(-14.568572998046875, 1, 5, 958) -- Sniper number 9
+Upgrade(-14.568572998046875, 2, 2, 958) -- Sniper number 9
+Upgrade(-14.32319450378418, 1, 5, 955) -- Sniper number 10
+Upgrade(-14.32319450378418, 2, 2, 955) -- Sniper number 10
+ShopUpgrade("Sniper", "Firerate", false, 949)
+ShopUpgrade("Sniper", "Firerate", false, 915)
+Place("EDJ", -11.500820159912109, 17.351766586303711, 101.00597381591797, 0, 15000, 906) -- EDJ number 1
+Place("EDJ", -11.528982162475586, 17.351764678955078, 97.454231262207031, 0, 15000, 904) -- EDJ number 2
+Place("Sniper", -11.359749794006348, 17.351764678955078, 104.47647094726562, 0, 285, 858) -- Sniper number 11
+Place("Sniper", -11.365137100219727, 17.351764678955078, 94.149330139160156, 0, 285, 855) -- Sniper number 12
+Upgrade(-11.365137100219727, 1, 5, 851) -- Sniper number 12
+Upgrade(-11.365137100219727, 2, 2, 851) -- Sniper number 12
+Upgrade(-11.359749794006348, 1, 1, 849) -- Sniper number 11
+ShopUpgrade("Sniper", "Damage", false, 839)
+Upgrade(-11.500820159912109, 1, 4, 834) -- EDJ number 1
+Upgrade(-11.500820159912109, 2, 2, 832) -- EDJ number 1
+Upgrade(-11.528982162475586, 2, 4, 824) -- EDJ number 2
+Upgrade(-11.528982162475586, 1, 1, 823) -- EDJ number 2
+Upgrade(-11.528982162475586, 1, 1, 816) -- EDJ number 2
+Upgrade(-11.359749794006348, 1, 4, 804) -- Sniper number 11
+Upgrade(-11.359749794006348, 2, 2, 804) -- Sniper number 11
+Upgrade(-52.902542114257812, 1, 1, 723) -- Combat Drone number 1
+
+Wave(3)
+Upgrade(-11.528982162475586, 2, 1, 1135) -- EDJ number 2
+Place("MLRS", -2.9798221588134766, 17.351764678955078, 42.612880706787109, 0, 17000, 1124, -65.491722106933594, 17.324703216552734, 52.196533203125) -- MLRS number 1
+Target(-2.9798221588134766, "0", 1122) -- MLRS number 1
+Target(-2.9798221588134766, "5", 1120) -- MLRS number 1
+Target(-2.9798221588134766, "4", 1120) -- MLRS number 1
+Place("MLRS", -2.0953941345214844, 17.351768493652344, 50.09814453125, 0, 17000, 1112, -23.840957641601562, 17.340648651123047, 90.5118408203125) -- MLRS number 2
+Place("MLRS", -1.793243408203125, 17.351764678955078, 58.088478088378906, 0, 17000, 1108, -23.840957641601562, 17.340648651123047, 90.5118408203125) -- MLRS number 3
+Target(-1.793243408203125, "4", 1106) -- MLRS number 3
+Target(-2.0953941345214844, "4", 1103) -- MLRS number 2
+Upgrade(-11.500820159912109, 1, 1, 1056) -- EDJ number 1
+ShopUpgrade("Sniper", "Damage", false, 1047)
+Place("Sniper", -17.785625457763672, 17.351766586303711, 90.154769897460938, 0, 285, 1016) -- Sniper number 13
+Place("Sniper", -17.357738494873047, 17.351766586303711, 87.098968505859375, 0, 285, 1012) -- Sniper number 14
+Place("Sniper", -14.415383338928223, 17.351764678955078, 90.0433349609375, 0, 285, 1006) -- Sniper number 15
+Place("Sniper", -14.128766059875488, 17.351764678955078, 87.011642456054688, 0, 285, 1004) -- Sniper number 16
+Place("Sniper", -11.155050277709961, 17.351764678955078, 90.951705932617188, 0, 285, 1003) -- Sniper number 17
+Place("Sniper", -11.160945892333984, 17.351764678955078, 87.86187744140625, 0, 285, 1001) -- Sniper number 18
+Place("Sniper", -17.607454299926758, 17.351764678955078, 108.84725189208984, 0, 285, 956) -- Sniper number 19
+Place("Sniper", -17.595222473144531, 17.351766586303711, 111.86288452148438, 0, 285, 954) -- Sniper number 20
+Place("Sniper", -14.445640563964844, 17.351764678955078, 108.78221130371094, 0, 285, 952) -- Sniper number 21
+Place("Sniper", -14.383493423461914, 17.351764678955078, 111.92572021484375, 0, 285, 951) -- Sniper number 22
+Place("Sniper", -11.372517585754395, 17.351764678955078, 108.57341003417969, 0, 285, 948) -- Sniper number 23
+Place("Sniper", -11.137157440185547, 17.351764678955078, 111.65164184570312, 0, 285, 946) -- Sniper number 24
+Upgrade(-17.785625457763672, 1, 5, 942) -- Sniper number 13
+Upgrade(-17.785625457763672, 2, 2, 942) -- Sniper number 13
+Upgrade(-17.357738494873047, 1, 1, 939) -- Sniper number 14
+Upgrade(-17.357738494873047, 1, 4, 936) -- Sniper number 14
+Upgrade(-17.357738494873047, 2, 2, 936) -- Sniper number 14
+Upgrade(-14.415383338928223, 1, 5, 934) -- Sniper number 15
+Upgrade(-14.415383338928223, 2, 2, 934) -- Sniper number 15
+Upgrade(-14.128766059875488, 1, 5, 932) -- Sniper number 16
+Upgrade(-14.128766059875488, 2, 2, 932) -- Sniper number 16
+Upgrade(-11.155050277709961, 1, 5, 929) -- Sniper number 17
+Upgrade(-11.155050277709961, 2, 2, 929) -- Sniper number 17
+Upgrade(-11.160945892333984, 1, 5, 927) -- Sniper number 18
+Upgrade(-11.160945892333984, 2, 2, 927) -- Sniper number 18
+Upgrade(-11.372517585754395, 1, 5, 925) -- Sniper number 23
+Upgrade(-11.372517585754395, 2, 2, 925) -- Sniper number 23
+Upgrade(-11.137157440185547, 1, 5, 923) -- Sniper number 24
+Upgrade(-11.137157440185547, 2, 2, 923) -- Sniper number 24
+Upgrade(-14.445640563964844, 1, 1, 920) -- Sniper number 21
+Upgrade(-14.445640563964844, 1, 4, 919) -- Sniper number 21
+Upgrade(-14.445640563964844, 2, 2, 919) -- Sniper number 21
+Upgrade(-14.383493423461914, 1, 5, 917) -- Sniper number 22
+Upgrade(-14.383493423461914, 2, 2, 917) -- Sniper number 22
+Upgrade(-17.607454299926758, 1, 1, 915) -- Sniper number 19
+Upgrade(-17.607454299926758, 1, 4, 912) -- Sniper number 19
+Upgrade(-17.607454299926758, 2, 2, 912) -- Sniper number 19
+Upgrade(-17.595222473144531, 1, 5, 909) -- Sniper number 20
+Upgrade(-17.595222473144531, 2, 2, 909) -- Sniper number 20
+Upgrade(-1.793243408203125, 1, 3, 904) -- MLRS number 3
+Upgrade(-2.0953941345214844, 1, 3, 902) -- MLRS number 2
+Upgrade(-2.9798221588134766, 1, 1, 901) -- MLRS number 1
+Upgrade(-2.9798221588134766, 1, 2, 900) -- MLRS number 1
+Upgrade(-2.9798221588134766, 1, 1, 859) -- MLRS number 1
+Upgrade(-2.0953941345214844, 1, 1, 858) -- MLRS number 2
+Upgrade(-1.793243408203125, 1, 1, 858) -- MLRS number 3
+Place("MLRS", -10.426862716674805, 17.312797546386719, -9.8735504150390625, 0, 17000, 841, -61.779911041259766, 20.347957611083984, 21.227479934692383) -- MLRS number 4
+Place("MLRS", -18.965770721435547, 17.312797546386719, -9.6614227294921875, 0, 17000, 836, -55.370361328125, 17.3228759765625, 1.563446044921875) -- MLRS number 5
+Target(-18.965770721435547, "4", 829) -- MLRS number 5
+Upgrade(-18.965770721435547, 1, 4, 827) -- MLRS number 5
+Upgrade(-10.426862716674805, 1, 2, 824) -- MLRS number 4
+Upgrade(-10.426862716674805, 1, 2, 823) -- MLRS number 4
+Target(-10.426862716674805, "4", 822) -- MLRS number 4
+Place("MLRS", -5.8132076263427734, 17.351764678955078, 64.481399536132812, 0, 17000, 813, -50.638576507568359, 15.451297760009766, 88.649482727050781) -- MLRS number 6
+Upgrade(-5.8132076263427734, 1, 3, 809) -- MLRS number 6
+Target(-5.8132076263427734, "4", 808) -- MLRS number 6
+ShopUpgrade("Combat Drone", "Damage", false, 722)
+Upgrade(-5.8132076263427734, 1, 1, 708) -- MLRS number 6
+Upgrade(-5.8132076263427734, 1, 1, 707) -- MLRS number 6
+Upgrade(-1.793243408203125, 1, 1, 706) -- MLRS number 3
+Upgrade(-2.0953941345214844, 1, 1, 654) -- MLRS number 2
+Upgrade(-2.9798221588134766, 1, 1, 640) -- MLRS number 1
+ShopUpgrade("EDJ", "Range", false, 632)
+
+Wave(4)
+ShopUpgrade("EDJ", "Range", false, 1115)
+Upgrade(-10.426862716674805, 1, 1, 1106) -- MLRS number 4
+ShopUpgrade("Sniper", "Firerate", false, 1046)
+ShopUpgrade("MLRS", "Splash", false, 1005)
+Place("Sniper", -8.0800924301147461, 17.351764678955078, 111.74062347412109, 0, 285, 955) -- Sniper number 25
+Place("Sniper", -8.1603546142578125, 17.351764678955078, 108.59600830078125, 0, 285, 952) -- Sniper number 26
+Place("Sniper", -8.0069780349731445, 17.351764678955078, 105.49104309082031, 0, 285, 951) -- Sniper number 27
+Place("Sniper", -7.8958063125610352, 17.351764678955078, 102.35619354248047, 0, 285, 949) -- Sniper number 28
+Place("Sniper", -8.0023355484008789, 17.351766586303711, 99.330001831054688, 0, 285, 947) -- Sniper number 29
+Place("Sniper", -8.0041866302490234, 17.351764678955078, 96.238304138183594, 0, 285, 944) -- Sniper number 30
+Place("Sniper", -8.1437397003173828, 17.351764678955078, 93.156669616699219, 0, 285, 943) -- Sniper number 31
+Place("Sniper", -8.2706890106201172, 17.351764678955078, 86.363876342773438, 0, 285, 936) -- Sniper number 32
+Upgrade(-8.2706890106201172, 1, 5, 933) -- Sniper number 32
+Upgrade(-8.2706890106201172, 2, 2, 933) -- Sniper number 32
+Upgrade(-8.1437397003173828, 1, 5, 931) -- Sniper number 31
+Upgrade(-8.1437397003173828, 2, 2, 931) -- Sniper number 31
+Upgrade(-8.0041866302490234, 1, 5, 929) -- Sniper number 30
+Upgrade(-8.0041866302490234, 2, 2, 929) -- Sniper number 30
+Upgrade(-8.0023355484008789, 1, 5, 927) -- Sniper number 29
+Upgrade(-8.0023355484008789, 2, 2, 927) -- Sniper number 29
+Upgrade(-7.8958063125610352, 1, 5, 924) -- Sniper number 28
+Upgrade(-7.8958063125610352, 2, 2, 924) -- Sniper number 28
+Upgrade(-8.0069780349731445, 1, 1, 922) -- Sniper number 27
+Upgrade(-8.0069780349731445, 1, 4, 920) -- Sniper number 27
+Upgrade(-8.0069780349731445, 2, 2, 920) -- Sniper number 27
+Upgrade(-8.1603546142578125, 1, 5, 918) -- Sniper number 26
+Upgrade(-8.1603546142578125, 2, 2, 918) -- Sniper number 26
+Upgrade(-8.0800924301147461, 1, 5, 916) -- Sniper number 25
+Upgrade(-8.0800924301147461, 2, 2, 916) -- Sniper number 25
+Upgrade(-18.965770721435547, 1, 1, 908) -- MLRS number 5
+Place("Sniper", -15.934137344360352, 17.351766586303711, 114.70922088623047, 0, 285, 833) -- Sniper number 33
+Place("Sniper", -12.917608261108398, 17.351764678955078, 114.73532104492188, 0, 285, 831) -- Sniper number 34
+Place("Sniper", -9.7592592239379883, 17.351764678955078, 114.70896911621094, 0, 285, 829) -- Sniper number 35
+Place("Sniper", -6.6085968017578125, 17.351764678955078, 114.82395935058594, 0, 285, 824) -- Sniper number 36
+Place("Sniper", -4.9955539703369141, 17.351768493652344, 112.06287384033203, 0, 285, 819) -- Sniper number 37
+Place("Sniper", -4.9297142028808594, 17.351764678955078, 108.92938232421875, 0, 285, 817) -- Sniper number 38
+Place("Sniper", -4.9209079742431641, 17.351768493652344, 105.72101593017578, 0, 285, 816) -- Sniper number 39
+Place("Sniper", -4.850982666015625, 17.351764678955078, 102.70173645019531, 0, 285, 814) -- Sniper number 40
+Place("Sniper", -4.8646221160888672, 17.351764678955078, 99.622879028320312, 0, 285, 813) -- Sniper number 41
+Place("Sniper", -4.9958400726318359, 17.351764678955078, 96.59332275390625, 0, 285, 805) -- Sniper number 42
+Place("Sniper", -2.0271224975585938, 17.351764678955078, 97.106208801269531, 0, 285, 803) -- Sniper number 43
+Place("Sniper", -1.8700294494628906, 17.351764678955078, 100.19134521484375, 0, 285, 759) -- Sniper number 44
+Place("Sniper", -1.8783016204833984, 17.351764678955078, 103.24388885498047, 0, 285, 754) -- Sniper number 45
+Place("Sniper", -1.9659976959228516, 17.351764678955078, 106.28054046630859, 0, 285, 751) -- Sniper number 46
+Place("Sniper", -2.2343235015869141, 17.351768493652344, 110.84628295898438, 0, 285, 735) -- Sniper number 47
+Upgrade(-15.934137344360352, 1, 5, 728) -- Sniper number 33
+Upgrade(-15.934137344360352, 2, 2, 728) -- Sniper number 33
+Upgrade(-12.917608261108398, 1, 5, 726) -- Sniper number 34
+Upgrade(-12.917608261108398, 2, 2, 726) -- Sniper number 34
+Upgrade(-9.7592592239379883, 1, 5, 722) -- Sniper number 35
+Upgrade(-9.7592592239379883, 2, 2, 722) -- Sniper number 35
+Upgrade(-6.6085968017578125, 1, 1, 720) -- Sniper number 36
+Upgrade(-6.6085968017578125, 1, 4, 718) -- Sniper number 36
+Upgrade(-6.6085968017578125, 2, 2, 718) -- Sniper number 36
+Upgrade(-4.9955539703369141, 1, 5, 715) -- Sniper number 37
+Upgrade(-4.9955539703369141, 2, 2, 715) -- Sniper number 37
+Upgrade(-4.9297142028808594, 1, 5, 712) -- Sniper number 38
+Upgrade(-4.9297142028808594, 2, 2, 712) -- Sniper number 38
+Upgrade(-4.9209079742431641, 1, 5, 709) -- Sniper number 39
+Upgrade(-4.9209079742431641, 2, 2, 709) -- Sniper number 39
+Upgrade(-4.850982666015625, 1, 5, 706) -- Sniper number 40
+Upgrade(-4.850982666015625, 2, 2, 706) -- Sniper number 40
+Upgrade(-4.8646221160888672, 1, 5, 702) -- Sniper number 41
+Upgrade(-4.8646221160888672, 2, 2, 702) -- Sniper number 41
+Upgrade(-4.9958400726318359, 1, 5, 659) -- Sniper number 42
+Upgrade(-4.9958400726318359, 2, 2, 659) -- Sniper number 42
+Upgrade(-2.0271224975585938, 1, 5, 27) -- Sniper number 43
+Upgrade(-2.0271224975585938, 2, 2, 27) -- Sniper number 43
+Upgrade(-1.8700294494628906, 1, 5, 25) -- Sniper number 44
+Upgrade(-1.8700294494628906, 2, 2, 25) -- Sniper number 44
+Upgrade(-1.8783016204833984, 1, 5, 23) -- Sniper number 45
+Upgrade(-1.8783016204833984, 2, 2, 23) -- Sniper number 45
+Upgrade(-1.9659976959228516, 1, 5, 19) -- Sniper number 46
+Upgrade(-1.9659976959228516, 2, 2, 19) -- Sniper number 46
+Upgrade(-2.2343235015869141, 1, 5, 16) -- Sniper number 47
+Upgrade(-2.2343235015869141, 2, 2, 16) -- Sniper number 47
+ShopUpgrade("MLRS", "Splash", false, 5)
+ShopUpgrade("MLRS", "Firerate", false, 1)
+
+Wave(5)
+ShopUpgrade("MLRS", "Firerate", false, 1037)
+ShopUpgrade("Combat Drone", "Damage", false, 1010)
+ShopUpgrade("MLRS", "Splash", false, 915)
+Place("Sniper", -11.155860900878906, 17.351764678955078, 84.806228637695312, 0, 285, 905) -- Sniper number 48
+Place("Sniper", -14.12531852722168, 17.351764678955078, 83.975784301757812, 0, 285, 903) -- Sniper number 49
+Place("Sniper", -17.140411376953125, 17.351764678955078, 84.019477844238281, 0, 285, 859) -- Sniper number 50
+Upgrade(-11.155860900878906, 1, 5, 852) -- Sniper number 48
+Upgrade(-11.155860900878906, 2, 2, 852) -- Sniper number 48
+Upgrade(-14.12531852722168, 1, 5, 849) -- Sniper number 49
+Upgrade(-14.12531852722168, 2, 2, 849) -- Sniper number 49
+Upgrade(-17.140411376953125, 1, 5, 846) -- Sniper number 50
+Upgrade(-17.140411376953125, 2, 2, 846) -- Sniper number 50
+Place("Sniper", -8.2204914093017578, 17.351764678955078, 82.830909729003906, 0, 285, 840) -- Sniper number 51
+Upgrade(-8.2204914093017578, 1, 5, 838) -- Sniper number 51
+Upgrade(-8.2204914093017578, 2, 2, 838) -- Sniper number 51
+ShopUpgrade("MLRS", "Splash", false, 834)
+ShopUpgrade("MLRS", "Splash", false, 832)
+
+Wave(6)
+ShopUpgrade("MLRS", "Firerate", false, 0)
+ShopUpgrade("MLRS", "Damage", false, 0)
+ShopUpgrade("MLRS", "Damage", false, 0)
+ShopUpgrade("MLRS", "Damage", false, 0)
